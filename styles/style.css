@@ -1,0 +1,274 @@
+.fira-sans-thin {
+    font-family: "Fira Sans", serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .fira-sans-extralight {
+    font-family: "Fira Sans", serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .fira-sans-light {
+    font-family: "Fira Sans", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .fira-sans-regular {
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .fira-sans-medium {
+    font-family: "Fira Sans", serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .fira-sans-semibold {
+    font-family: "Fira Sans", serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .fira-sans-bold {
+    font-family: "Fira Sans", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .fira-sans-extrabold {
+    font-family: "Fira Sans", serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  .fira-sans-black {
+    font-family: "Fira Sans", serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .fira-sans-thin-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .fira-sans-extralight-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 200;
+    font-style: italic;
+  }
+  
+  .fira-sans-light-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .fira-sans-regular-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .fira-sans-medium-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .fira-sans-semibold-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+  .fira-sans-bold-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .fira-sans-extrabold-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 800;
+    font-style: italic;
+  }
+  
+  .fira-sans-black-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+  
+ 
+.b1{
+
+    color: rgba(14, 14, 14, 0.5);
+}
+.b2{
+    font-weight: 700;
+}
+.banner-pp{
+    width: 447.03;
+    height: 400;
+    padding: 80px 100px 80px 0px;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(198, 228, 214, 1);
+    margin: 0px 160px ;
+    border-radius: 8px;
+
+}
+.banner-title{
+  max-width: 700px;
+  padding:200px 100px 100px 100px;
+  
+}
+
+.button{
+    background-color: rgba(0, 106, 80, 1);
+    color:white;
+    font-size: 1opx; 
+    padding: 10px 5px;
+    font-weight: semibold;
+    border-radius: 5px;
+}
+.grp-container{
+    display:flex;
+    gap:24px;
+
+}
+.name1, .name2, .name3 {
+    padding: 32px;
+    
+    
+}
+.name1{
+    background-color: rgba(84, 144, 245, 0.2);
+}
+
+.name2{
+    background-color:rgba(198, 228, 214, 1) ;
+}
+.name3{
+    background-color: rgba(247, 235, 207, 1);
+}
+.btn1{
+    background-color:rgba(84, 144, 245, 1) ;
+    border-radius: 8px;
+    padding: 20px 11px;
+    color:rgba(255, 255, 255, 1);
+}
+.btn2{
+    background-color:rgba(9, 161, 92, 1) ;
+    border-radius: 8px;
+    padding: 20px 11px;
+    color:rgba(255, 255, 255, 1);
+}
+.btn3{
+    background-color: rgba(255, 194, 57, 1);
+    border-radius: 8px ;
+    padding: 20px 11px;
+    color:rgba(255, 255, 255, 1);
+}
+.name-description{
+    padding: 24px 0px 24px 0px;
+}
+.sec-des{
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+    max-width: 1280px;
+}
+.sec-title{
+    font-weight: bold;
+}
+.vission{
+    padding :0px 160px;
+    
+}
+.pic{
+    padding: 0px 160px;
+
+}
+.p1{
+    color: rgba(14, 14, 14, 0.8);
+
+
+}
+.p2{
+    color: rgba(14, 14, 14, 0.8);
+    background-image: url('../assets/quote-bg.png');
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: 35px 35px;
+}
+.nam{
+    font-weight: semibold;
+}
+.rn-sec{
+    display:flex;
+    background-color:rgba(255, 255, 255, 1) ;
+
+}
+.rn-pp{
+    height: 290px;
+    width: 408px;
+    
+    border:48px 48px 48px 48px;
+    border-radius: 24px;
+    padding: 48px 48px 48px 48px;
+    
+}
+.rn-sec2{
+    height: 728;
+    width: 890px;
+    border: 56px 48px;
+    padding: 30px 48px;
+
+}
+.dp{
+    colour:rgba(238, 238, 238, 0.837);
+    font-size: 12;
+}
+.rn-sec3{
+    display:flex;
+    background-color:rgba(255,255, 255, 1);
+}
+.ss{
+    display:flex;
+    justify-content: space-around;
+}
+.do{
+    padding:80px 60px;
+}
+input{
+    border :5x solid rgba(77, 28, 255, 0.284);
+width: 1032px;
+    padding: 10px;
+    align-items:center;
+}
+.btn4{
+    background-color:rgba(9, 161, 92, 1) ;
+    border-radius: 8px;
+    color:rgba(255, 255, 255, 1);
+    padding: 20px 11px;
+
+}
+.c1, .c, .c3, .c4{
+    padding :40px 40px;
+}
+.c{
+    background-color:rgba(198, 228, 214, 1);
+    border-radius:5px;
+}
+.DT{
+    text-align: center;
+}
