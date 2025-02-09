@@ -123,7 +123,7 @@
     display: flex;
     justify-content: space-between;
     background-color: rgba(198, 228, 214, 1);
-    margin: 0px 160px ;
+    margin: 80px 160px ;
     border-radius: 8px;
 
 }
@@ -191,11 +191,12 @@
     font-weight: bold;
 }
 .vission{
-    padding :0px 160px;
+    padding :0px;
+    margin:80px 160px;
     
 }
 .pic{
-    padding: 0px 160px;
+    margin:80px 160px;
 
 }
 .p1{
@@ -213,9 +214,12 @@
 .nam{
     font-weight: semibold;
 }
+
+
 .rn-sec{
     display:flex;
     background-color:rgba(255, 255, 255, 1) ;
+
 
 }
 .rn-pp{
@@ -247,7 +251,7 @@
     justify-content: space-around;
 }
 .do{
-    padding:80px 60px;
+    margin:80px 160px;
 }
 input{
     border :5x solid rgba(77, 28, 255, 0.284);
@@ -256,10 +260,14 @@ width: 1032px;
     align-items:center;
 }
 .btn4{
+  justify-content: center;
+  align-items: center;
     background-color:rgba(9, 161, 92, 1) ;
     border-radius: 8px;
+    margin:0px auto;
     color:rgba(255, 255, 255, 1);
     padding: 20px 11px;
+
 
 }
 .c1, .c, .c3, .c4{
@@ -271,4 +279,19 @@ width: 1032px;
 }
 .DT{
     text-align: center;
+}
+.fff{
+  margin: 80px 160px 80px 160px;
+  padding: 80px 100px;
+  border-radius: 32px;
+  background-color: aquamarine;
+}
+.ff2{
+  text-align: center;
+}
+.color{
+  color:rgba(14, 14, 14, 70%) ;
+}
+.form{
+  display: flex;
 }
