@@ -141,6 +141,15 @@
     font-weight: semibold;
     border-radius: 5px;
 }
+.button1{
+  background-color: rgba(0, 106, 80, 1);
+  color:white;
+  font-size: 1opx; 
+  padding: 8px 8px;
+  font-weight: semibold;
+  border-radius: 3px;
+  
+}
 .grp-container{
     display:flex;
     gap:24px;
@@ -200,7 +209,10 @@ body{
 }
 .pic{
     margin:80px 160px;
+    border-radius: 16px;
     background-color:white;
+    padding: 0px 24px 48px 24px;
+  
 
 }
 .p1{
@@ -213,11 +225,10 @@ body{
     background-image: url('../assets/quote-bg.png');
     background-repeat: no-repeat;
     background-position: top left;
-    background-size: 35px 35px;
+    background-size: 50px 100px;
+    padding-top:48px ;
 }
-.nam{
-    font-weight: semibold;
-}
+
 .rn{
   margin: 80px 160px;
 }
@@ -234,7 +245,7 @@ body{
     height: 290px;
     width: 408px;
     
-    border:48px 48px 48px 48px;
+     border:48px 48px 48px 48px;
     border-radius: 24px;
     padding: 48px 48px 48px 48px;
     
@@ -274,16 +285,23 @@ width: 100%;
 
 
 .btn4{
+  display: flex;
   justify-content: center;
   align-items: center;
     background-color:rgba(9, 161, 92, 1) ;
     border-radius: 8px;
     margin:0px auto;
     color:rgba(255, 255, 255, 1);
-    padding: 20px 11px;
+    padding: 20px 30px;
+   
 
 
 }
+.btn2:hover ,.btn1:hover ,.btn3:hover , .c:hover, .c1:hover , .c3:hover, .c4:hover, .button:hover, .btn4:hover , .button1:hover{
+  
+   background-color:greenyellow;
+  }
+
 .c1, .c, .c3, .c4{
     padding :40px 40px;
     background-color: white;
@@ -310,4 +328,10 @@ width: 100%;
 }
 .form{
   display: flex;
+}
+input[type="email"]::placeholder {
+  text-align: center;
+}
+input[type="text"]::placeholder {
+  text-align: center;
 }
