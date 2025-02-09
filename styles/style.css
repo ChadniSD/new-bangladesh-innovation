@@ -195,8 +195,12 @@
     margin:80px 160px;
     
 }
+body{
+  background-color:azure;
+}
 .pic{
     margin:80px 160px;
+    background-color:white;
 
 }
 .p1{
@@ -214,11 +218,15 @@
 .nam{
     font-weight: semibold;
 }
+.rn{
+  margin: 80px 160px;
+}
 
 
 .rn-sec{
     display:flex;
     background-color:rgba(255, 255, 255, 1) ;
+    margin-bottom: 10px;
 
 
 }
@@ -236,29 +244,35 @@
     width: 890px;
     border: 56px 48px;
     padding: 30px 48px;
+    
 
 }
-.dp{
-    color:rgba(238, 238, 238, 0.837);
-    font-size: 12;
+.donate{
+  margin: 80px 160px;
 }
+
 .rn-sec3{
     display:flex;
     background-color:rgba(255,255, 255, 1);
+    
 }
 .ss{
     display:flex;
     justify-content: space-around;
+    
 }
 .do{
-    margin:80px 160px;
+    margin:0px 0px;
 }
 input{
     border :5x solid rgba(77, 28, 255, 0.284);
-width: 1032px;
+width: 100%;
     padding: 10px;
     align-items:center;
+    margin-bottom: 2px;
 }
+
+
 .btn4{
   justify-content: center;
   align-items: center;
@@ -272,6 +286,8 @@ width: 1032px;
 }
 .c1, .c, .c3, .c4{
     padding :40px 40px;
+    background-color: white;
+    border-radius: 10px;
 }
 .c{
     background-color:rgba(198, 228, 214, 1);
